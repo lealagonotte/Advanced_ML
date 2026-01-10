@@ -208,3 +208,6 @@ __marimo__/
 
 # personnal folders
 texts/
+
+# Large data files
+synthetic_ratings.csv
