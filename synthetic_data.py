@@ -10,7 +10,7 @@ def simulate_rating_matrix(
     n_movies=5_000,
     n_factors=10,
     user_factor_std=1.0,
-    movie_factor_std=1.0,
+    movie_factor_std=10.0,
     random_state=12
 ):
     rng = np.random.default_rng(random_state)
@@ -75,7 +75,7 @@ def simulate_rating_matrix_communauties(
     n_communities = 5,
     community_std = 0.3,       # variance intra-communauté (petite)
     community_mean_std = 2.0,  # écart entre communautés (grand)
-    movie_factor_std=1.0,
+    movie_factor_std=10.0,
     random_state=12
 ):
     rng = np.random.default_rng(random_state)
