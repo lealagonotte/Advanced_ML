@@ -9,7 +9,7 @@ The algorithms compared are :
 -  Multi-armed nearest-neighbor bandit [\[4\]](#ref-knn)
 - Dynamic clustering based contextual combinatorial multi-armed bandit (DC3MAB) [\[2\]](#ref-DC3MAB)
 
-We implemented all the code, based on the pseudo-code given in the papers. We did not consult any code implemented by the researchers in the papers.
+We implemented all the code, based on the pseudo-code given in the papers (adapting it to film recommendations in the case of DC3MAB). We did not consult any code implemented by the researchers in the papers.
 
 ## Data
 
